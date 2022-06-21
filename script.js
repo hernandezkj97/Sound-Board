@@ -1,6 +1,6 @@
 const sounds = ["boom", "hithat", "clap","openhat", "kick","tink","snare","tom","ride"];
 const title= document.querySelector('h1');
-title.innerText="Desarrollado por Keiber Hernandez";
+title.innerText="Creado por Keiber Hernandez";
 
 sounds.forEach(sound=>{
     const btn = document.createElement("button");
