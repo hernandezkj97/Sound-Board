@@ -1,7 +1,6 @@
 const sounds = ["boom", "hithat", "clap","openhat", "kick","tink","snare","tom","ride"];
 const title= document.querySelector('h1');
-const devName = prompt("What is your name?");
-title.innerText=`Desarrollado por ${devName}`;
+title.innerText=Desarrollado por Keiber Hernandez;
 
 sounds.forEach(sound=>{
     const btn = document.createElement("button");
