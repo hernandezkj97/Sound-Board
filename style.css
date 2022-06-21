@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+h1{
+  font-size: 2.15rem;
+}
+
+.btn{
+    background-color: rgb(156, 36, 192);
+    border-radius: 5px;
+    border:none;
+    color:white;
+    margin: .5rem ;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 10rem;
+
+}
+
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline: none;
+}  
+
+
+.btn:active{
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px){
+  
+  .btn:focus{
+    outline:hidden;
+  }
+
+  .btn:active{
+    outline:hidden;
+  }
+}
